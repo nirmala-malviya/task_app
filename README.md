@@ -1,7 +1,9 @@
 # Task Management
 
 
-## Local-setup
+## Getting Started
+
+Follow these steps to set up the project locally:
 
 - Clone from the repository 
 
@@ -19,3 +21,5 @@
 - Run server locally on port 3001
 
 	rails s -p 3001
+
+Make sure we run rails server on the port other than 3000. To run the application with frontend. As our frontend will default run on port 3000.
