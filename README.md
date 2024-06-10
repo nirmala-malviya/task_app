@@ -1,24 +1,21 @@
-# README
+# Task Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Local-setup
 
-* Ruby version
+- Clone from the repository 
 
-* System dependencies
+	git clone https://github.com/nirmala-malviya/task_app.git
 
-* Configuration
+- Go to inside the project directory run below comman.
 
-* Database creation
+	bundle install
 
-* Database initialization
+- For Database setup
 
-* How to run the test suite
+	rails db:create
+	rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run server locally on port 3001
 
-* Deployment instructions
-
-* ...
+	rails s -p 3001
