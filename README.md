@@ -1,24 +1,25 @@
-# README
+# Task Management
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+Follow these steps to set up the project locally:
 
-* System dependencies
+- Clone from the repository 
 
-* Configuration
+	git clone https://github.com/nirmala-malviya/task_app.git
 
-* Database creation
+- Go to inside the project directory run below comman.
 
-* Database initialization
+	bundle install
 
-* How to run the test suite
+- For Database setup
 
-* Services (job queues, cache servers, search engines, etc.)
+	rails db:create
+	rails db:migrate
 
-* Deployment instructions
+- Run server locally on port 3001
 
-* ...
+	rails s -p 3001
+
+Make sure we run rails server on the port other than 3000. To run the application with frontend. As our frontend will default run on port 3000.
